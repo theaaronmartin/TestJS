@@ -18,3 +18,30 @@ console.log(name)
 
 // Give a name and welcome someone
 welcome(someName)
+
+
+function getAge () {
+  var ageResult = prompt('Wait, how old did you say you were?')
+  return ageResult
+}
+
+var age = getAge()
+
+function hi (number) {
+  alert('Did you say ' + number + '? Try again in a couple of years.')
+}
+
+hi(age)
+
+function moar () {
+  var uhhh = prompt('I want M04R! Do you??')
+  return uhhh
+}
+
+var yee = moar()
+
+function kek (lol) {
+  alert(lol + '? That is what I thought!')
+}
+
+kek(yee)
